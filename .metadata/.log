@@ -1,0 +1,1465 @@
+!SESSION 2018-07-20 19:36:11.482 -----------------------------------------------
+eclipse.buildId=4.7.2.v20171217-1438
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 2 2 2018-07-20 19:51:25.551
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+!SESSION 2018-07-27 11:47:26.659 -----------------------------------------------
+eclipse.buildId=4.7.2.v20171217-1438
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-07-27 11:47:41.432
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 2 2018-07-27 11:55:00.962
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+!SESSION 2018-07-29 11:43:53.860 -----------------------------------------------
+eclipse.buildId=4.7.2.v20171217-1438
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-07-29 11:44:11.686
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2018-07-29 15:58:26.667 -----------------------------------------------
+eclipse.buildId=4.7.2.v20171217-1438
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-07-29 15:58:45.377
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-29 16:10:35.883
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-29 16:10:36.020
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-29 16:10:36.568
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-29 16:10:36.569
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.ui 4 0 2018-07-29 16:11:28.259
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController.computeInformation(AdditionalInfoController.java:547)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1142)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformation(AbstractInformationControlManager.java:1132)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController.showInformation(AdditionalInfoController.java:536)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$1.showInformation(AdditionalInfoController.java:483)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$7.run(AdditionalInfoController.java:367)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4577)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4186)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+
+!ENTRY org.eclipse.recommenders.rcp 4 4 2018-07-29 17:15:03.688
+!MESSAGE Exception occurred in IRcpService hook void org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.open() throws java.lang.Exception.
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.recommenders.internal.rcp.RcpModule$Listener$1.executeMethod(RcpModule.java:292)
+	at org.eclipse.recommenders.internal.rcp.RcpModule$Listener$1.afterInjection(RcpModule.java:284)
+	at com.google.inject.internal.MembersInjectorImpl.notifyListeners(MembersInjectorImpl.java:119)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:121)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:90)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:268)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46)
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1092)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:194)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:41)
+	at com.google.inject.internal.FactoryProxy.get(FactoryProxy.java:56)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:38)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:62)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:110)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:90)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:268)
+	at com.google.inject.internal.FactoryProxy.get(FactoryProxy.java:56)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46)
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1092)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:194)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:41)
+	at com.google.inject.internal.InjectorImpl$2$1.call(InjectorImpl.java:1019)
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1085)
+	at com.google.inject.internal.InjectorImpl$2.get(InjectorImpl.java:1015)
+	at org.eclipse.recommenders.internal.calls.rcp.CallCompletionSessionProcessor.findReceiverTypeAndModel(CallCompletionSessionProcessor.java:140)
+	at org.eclipse.recommenders.internal.calls.rcp.CallCompletionSessionProcessor.startSession(CallCompletionSessionProcessor.java:109)
+	at org.eclipse.recommenders.completion.rcp.processable.IntelligentCompletionProposalComputer.fireStartSession(IntelligentCompletionProposalComputer.java:305)
+	at org.eclipse.recommenders.completion.rcp.processable.IntelligentCompletionProposalComputer.computeCompletionProposals(IntelligentCompletionProposalComputer.java:171)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:337)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:331)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:288)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$3.run(ContentAssistant.java:2007)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2004)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:560)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$7(CompletionProposalPopup.java:555)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$2.run(CompletionProposalPopup.java:489)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:482)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener$1.run(ContentAssistant.java:377)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4577)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4186)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+Caused by: java.lang.LinkageError: loader constraint violation: loader (instance of org/eclipse/osgi/internal/loader/EquinoxClassLoader) previously initiated loading for a different type with name "org/eclipse/aether/impl/DefaultServiceLocator"
+	at org.eclipse.recommenders.models.ModelRepository.createRepositorySystem(ModelRepository.java:96)
+	at org.eclipse.recommenders.models.ModelRepository.<init>(ModelRepository.java:78)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.open(EclipseModelRepository.java:84)
+	... 73 more
+Root exception:
+java.lang.LinkageError: loader constraint violation: loader (instance of org/eclipse/osgi/internal/loader/EquinoxClassLoader) previously initiated loading for a different type with name "org/eclipse/aether/impl/DefaultServiceLocator"
+	at org.eclipse.recommenders.models.ModelRepository.createRepositorySystem(ModelRepository.java:96)
+	at org.eclipse.recommenders.models.ModelRepository.<init>(ModelRepository.java:78)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.open(EclipseModelRepository.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.recommenders.internal.rcp.RcpModule$Listener$1.executeMethod(RcpModule.java:292)
+	at org.eclipse.recommenders.internal.rcp.RcpModule$Listener$1.afterInjection(RcpModule.java:284)
+	at com.google.inject.internal.MembersInjectorImpl.notifyListeners(MembersInjectorImpl.java:119)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:121)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:90)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:268)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46)
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1092)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:194)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:41)
+	at com.google.inject.internal.FactoryProxy.get(FactoryProxy.java:56)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:38)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:62)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:110)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:90)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:268)
+	at com.google.inject.internal.FactoryProxy.get(FactoryProxy.java:56)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46)
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1092)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:194)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:41)
+	at com.google.inject.internal.InjectorImpl$2$1.call(InjectorImpl.java:1019)
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1085)
+	at com.google.inject.internal.InjectorImpl$2.get(InjectorImpl.java:1015)
+	at org.eclipse.recommenders.internal.calls.rcp.CallCompletionSessionProcessor.findReceiverTypeAndModel(CallCompletionSessionProcessor.java:140)
+	at org.eclipse.recommenders.internal.calls.rcp.CallCompletionSessionProcessor.startSession(CallCompletionSessionProcessor.java:109)
+	at org.eclipse.recommenders.completion.rcp.processable.IntelligentCompletionProposalComputer.fireStartSession(IntelligentCompletionProposalComputer.java:305)
+	at org.eclipse.recommenders.completion.rcp.processable.IntelligentCompletionProposalComputer.computeCompletionProposals(IntelligentCompletionProposalComputer.java:171)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:337)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:331)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:288)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$3.run(ContentAssistant.java:2007)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2004)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:560)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$7(CompletionProposalPopup.java:555)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$2.run(CompletionProposalPopup.java:489)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:482)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener$1.run(ContentAssistant.java:377)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4577)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4186)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+
+!ENTRY org.eclipse.recommenders.models.rcp 4 0 2018-07-29 17:15:04.149
+!MESSAGE Failed to download org.eclipse.recommenders:index::zip:0.0.0
+!STACK 0
+java.lang.IllegalArgumentException: model repository service is not accesible at the moment.
+	at org.eclipse.recommenders.utils.Throws.throwIllegalArgumentException(Throws.java:29)
+	at org.eclipse.recommenders.utils.Checks.ensureIsTrue(Checks.java:254)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.ensureIsOpen(EclipseModelRepository.java:246)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:162)
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2018-07-29 17:19:55.409
+!MESSAGE Full project indexing required:
+  [+] /home/ricardo/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+  [+] /home/ricardo/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar
+  [+] /home/ricardo/.m2/repository/com/esotericsoftware/kryo-shaded/3.0.3/kryo-shaded-3.0.3.jar
+  [+] /home/ricardo/.m2/repository/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.jar
+  [+] /home/ricardo/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar
+  [+] /home/ricardo/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar
+  [+] /home/ricardo/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar
+  [+] /home/ricardo/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar
+  [+] /home/ricardo/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.6/jackson-datatype-jdk8-2.9.6.jar
+  [+] /home/ricardo/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.6/jackson-datatype-jsr310-2.9.6.jar
+  [+] /home/ricardo/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.6/jackson-module-parameter-names-2.9.6.jar
+  [+] /home/ricardo/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar
+  [+] /home/ricardo/.m2/repository/com/rabbitmq/amqp-client/5.1.2/amqp-client-5.1.2.jar
+  [+] /home/ricardo/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar
+  [+] /home/ricardo/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+  [+] /home/ricardo/.m2/repository/de/flapdoodle/embed/de.flapdoodle.embed.mongo/2.0.3/de.flapdoodle.embed.mongo-2.0.3.jar
+  [+] /home/ricardo/.m2/repository/de/flapdoodle/embed/de.flapdoodle.embed.process/2.0.2/de.flapdoodle.embed.process-2.0.2.jar
+  [+] /home/ricardo/.m2/repository/io/netty/netty-buffer/4.1.25.Final/netty-buffer-4.1.25.Final.jar
+  [+] /home/ricardo/.m2/repository/io/netty/netty-codec-http/4.1.25.Final/netty-codec-http-4.1.25.Final.jar
+  [+] /home/ricardo/.m2/repository/io/netty/netty-codec-socks/4.1.25.Final/netty-codec-socks-4.1.25.Final.jar
+  [+] /home/ricardo/.m2/repository/io/netty/netty-codec/4.1.25.Final/netty-codec-4.1.25.Final.jar
+  [+] /home/ricardo/.m2/repository/io/netty/netty-common/4.1.25.Final/netty-common-4.1.25.Final.jar
+  [+] /home/ricardo/.m2/repository/io/netty/netty-handler-proxy/4.1.25.Final/netty-handler-proxy-4.1.25.Final.jar
+  [+] /home/ricardo/.m2/repository/io/netty/netty-handler/4.1.25.Final/netty-handler-4.1.25.Final.jar
+  [+] /home/ricardo/.m2/repository/io/netty/netty-resolver/4.1.25.Final/netty-resolver-4.1.25.Final.jar
+  [+] /home/ricardo/.m2/repository/io/netty/netty-transport-native-epoll/4.1.25.Final/netty-transport-native-epoll-4.1.25.Final-linux-x86_64.jar
+  [+] /home/ricardo/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.25.Final/netty-transport-native-unix-common-4.1.25.Final.jar
+  [+] /home/ricardo/.m2/repository/io/netty/netty-transport/4.1.25.Final/netty-transport-4.1.25.Final.jar
+  [+] /home/ricardo/.m2/repository/io/projectreactor/ipc/reactor-netty/0.7.8.RELEASE/reactor-netty-0.7.8.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/io/projectreactor/reactor-core/3.1.8.RELEASE/reactor-core-3.1.8.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/io/projectreactor/reactor-test/3.1.8.RELEASE/reactor-test-3.1.8.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+  [+] /home/ricardo/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar
+  [+] /home/ricardo/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  [+] /home/ricardo/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.11/byte-buddy-agent-1.7.11.jar
+  [+] /home/ricardo/.m2/repository/net/bytebuddy/byte-buddy/1.7.11/byte-buddy-1.7.11.jar
+  [+] /home/ricardo/.m2/repository/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar
+  [+] /home/ricardo/.m2/repository/net/java/dev/jna/jna/4.5.1/jna-4.5.1.jar
+  [+] /home/ricardo/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar
+  [+] /home/ricardo/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar
+  [+] /home/ricardo/.m2/repository/org/apache/commons/commons-compress/1.10/commons-compress-1.10.jar
+  [+] /home/ricardo/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar
+  [+] /home/ricardo/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar
+  [+] /home/ricardo/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.jar
+  [+] /home/ricardo/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.31/tomcat-embed-el-8.5.31.jar
+  [+] /home/ricardo/.m2/repository/org/assertj/assertj-core/3.9.1/assertj-core-3.9.1.jar
+  [+] /home/ricardo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+  [+] /home/ricardo/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+  [+] /home/ricardo/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.10.Final/hibernate-validator-6.0.10.Final.jar
+  [+] /home/ricardo/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar
+  [+] /home/ricardo/.m2/repository/org/mockito/mockito-core/2.15.0/mockito-core-2.15.0.jar
+  [+] /home/ricardo/.m2/repository/org/mongodb/bson/3.6.4/bson-3.6.4.jar
+  [+] /home/ricardo/.m2/repository/org/mongodb/mongodb-driver-async/3.6.4/mongodb-driver-async-3.6.4.jar
+  [+] /home/ricardo/.m2/repository/org/mongodb/mongodb-driver-core/3.6.4/mongodb-driver-core-3.6.4.jar
+  [+] /home/ricardo/.m2/repository/org/mongodb/mongodb-driver-reactivestreams/1.7.1/mongodb-driver-reactivestreams-1.7.1.jar
+  [+] /home/ricardo/.m2/repository/org/mongodb/mongodb-driver/3.6.4/mongodb-driver-3.6.4.jar
+  [+] /home/ricardo/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar
+  [+] /home/ricardo/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar
+  [+] /home/ricardo/.m2/repository/org/projectlombok/lombok/1.16.22/lombok-1.16.22.jar
+  [+] /home/ricardo/.m2/repository/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar
+  [+] /home/ricardo/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar
+  [+] /home/ricardo/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar
+  [+] /home/ricardo/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/amqp/spring-amqp/2.0.4.RELEASE/spring-amqp-2.0.4.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/amqp/spring-rabbit/2.0.4.RELEASE/spring-rabbit-2.0.4.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/boot/spring-boot-starter-amqp/2.0.3.RELEASE/spring-boot-starter-amqp-2.0.3.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/boot/spring-boot-starter-data-mongodb-reactive/2.0.3.RELEASE/spring-boot-starter-data-mongodb-reactive-2.0.3.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.0.3.RELEASE/spring-boot-starter-json-2.0.3.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.0.3.RELEASE/spring-boot-starter-logging-2.0.3.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/boot/spring-boot-starter-reactor-netty/2.0.3.RELEASE/spring-boot-starter-reactor-netty-2.0.3.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.0.3.RELEASE/spring-boot-starter-test-2.0.3.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.0.3.RELEASE/spring-boot-starter-validation-2.0.3.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/boot/spring-boot-starter-webflux/2.0.3.RELEASE/spring-boot-starter-webflux-2.0.3.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/boot/spring-boot-starter/2.0.3.RELEASE/spring-boot-starter-2.0.3.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.0.3.RELEASE/spring-boot-test-autoconfigure-2.0.3.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/boot/spring-boot-test/2.0.3.RELEASE/spring-boot-test-2.0.3.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/boot/spring-boot/2.0.3.RELEASE/spring-boot-2.0.3.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/cloud/spring-cloud-stream-binder-rabbit-core/2.0.0.RELEASE/spring-cloud-stream-binder-rabbit-core-2.0.0.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/cloud/spring-cloud-stream-binder-rabbit/2.0.0.RELEASE/spring-cloud-stream-binder-rabbit-2.0.0.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/cloud/spring-cloud-stream-reactive/2.0.0.RELEASE/spring-cloud-stream-reactive-2.0.0.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/cloud/spring-cloud-stream-test-support/2.0.0.RELEASE/spring-cloud-stream-test-support-2.0.0.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/cloud/spring-cloud-stream/2.0.0.RELEASE/spring-cloud-stream-2.0.0.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/data/spring-data-commons/2.0.8.RELEASE/spring-data-commons-2.0.8.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/data/spring-data-mongodb/2.0.8.RELEASE/spring-data-mongodb-2.0.8.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/integration/spring-integration-amqp/5.0.6.RELEASE/spring-integration-amqp-5.0.6.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/integration/spring-integration-core/5.0.6.RELEASE/spring-integration-core-5.0.6.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/integration/spring-integration-jmx/5.0.6.RELEASE/spring-integration-jmx-5.0.6.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/integration/spring-integration-tuple/1.0.0.RELEASE/spring-integration-tuple-1.0.0.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/retry/spring-retry/1.2.2.RELEASE/spring-retry-1.2.2.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/spring-aop/5.0.7.RELEASE/spring-aop-5.0.7.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/spring-context/5.0.7.RELEASE/spring-context-5.0.7.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/spring-expression/5.0.7.RELEASE/spring-expression-5.0.7.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/spring-jcl/5.0.7.RELEASE/spring-jcl-5.0.7.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/spring-messaging/5.0.7.RELEASE/spring-messaging-5.0.7.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/spring-test/5.0.7.RELEASE/spring-test-5.0.7.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/spring-tuple/1.0.0.RELEASE/spring-tuple-1.0.0.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/spring-tx/5.0.7.RELEASE/spring-tx-5.0.7.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/springframework/spring-webflux/5.0.7.RELEASE/spring-webflux-5.0.7.RELEASE.jar
+  [+] /home/ricardo/.m2/repository/org/synchronoss/cloud/nio-multipart-parser/1.1.0/nio-multipart-parser-1.1.0.jar
+  [+] /home/ricardo/.m2/repository/org/synchronoss/cloud/nio-stream-storage/1.1.3/nio-stream-storage-1.1.3.jar
+  [+] /home/ricardo/.m2/repository/org/xmlunit/xmlunit-core/2.5.1/xmlunit-core-2.5.1.jar
+  [+] /home/ricardo/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar
+  [+] /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-3.b10.fc26.x86_64/jre/lib/charsets.jar
+  [+] /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-3.b10.fc26.x86_64/jre/lib/ext/cldrdata.jar
+  [+] /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-3.b10.fc26.x86_64/jre/lib/ext/dnsns.jar
+  [+] /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-3.b10.fc26.x86_64/jre/lib/ext/jaccess.jar
+  [+] /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-3.b10.fc26.x86_64/jre/lib/ext/localedata.jar
+  [+] /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-3.b10.fc26.x86_64/jre/lib/ext/nashorn.jar
+  [+] /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-3.b10.fc26.x86_64/jre/lib/ext/sunec.jar
+  [+] /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-3.b10.fc26.x86_64/jre/lib/ext/sunjce_provider.jar
+  [+] /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-3.b10.fc26.x86_64/jre/lib/ext/sunpkcs11.jar
+  [+] /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-3.b10.fc26.x86_64/jre/lib/ext/zipfs.jar
+  [+] /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-3.b10.fc26.x86_64/jre/lib/jce.jar
+  [+] /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-3.b10.fc26.x86_64/jre/lib/jsse.jar
+  [+] /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-3.b10.fc26.x86_64/jre/lib/resources.jar
+  [+] /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-3.b10.fc26.x86_64/jre/lib/rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:95)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.ui 2 2 2018-07-29 17:56:50.714
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2018-07-29 18:26:00.552
+!MESSAGE Manual restore of backup needed for: /tmp/SDKProfile_2c9cdb8c5240_7f0000018fcd/_/usr/lib/eclipse/.eclipseproduct
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2018-07-29 18:26:00.588
+!MESSAGE 0 items out of 1 items restored.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2018-07-29 18:26:00.589
+!MESSAGE An error occurred while committing the engine session for profile: SDKProfile.
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2018-07-29 18:26:00.589
+!MESSAGE Restore of backup failed - see log for details. Backup directory name: SDKProfile_2c9cdb8c5240_7f0000018fcd.
+!STACK 0
+java.io.IOException: Errors while restoring - see earlier logged errors
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.BackupStore.close(BackupStore.java:532)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.BackupStore.restore(BackupStore.java:495)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.restore(LazyBackupStore.java:53)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.NativeTouchpoint.rollback(NativeTouchpoint.java:202)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:196)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:86)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:45)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:175)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2018-07-29 18:26:00.591
+!MESSAGE An error occurred while uninstalling
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2018-07-29 18:26:00.591
+!MESSAGE session context was:(profile=SDKProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Uninstall, operand=[R]org.eclipse.platform_root 4.7.2.v20171217-1438 --> null, action=org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction).
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2018-07-29 18:26:00.591
+!MESSAGE Backup of file /usr/lib/eclipse/.eclipseproduct failed.
+!STACK 0
+java.io.IOException: File that was copied to backup could not be deleted: /usr/lib/eclipse/.eclipseproduct
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.BackupStore.moveToBackup(BackupStore.java:282)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.BackupStore.backup(BackupStore.java:248)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.backup(LazyBackupStore.java:36)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.cleanupzip(CleanupzipAction.java:85)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.execute(CleanupzipAction.java:30)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.execute(ParameterizedProvisioningAction.java:39)
+	at org.eclipse.equinox.internal.p2.engine.Phase.mainPerform(Phase.java:184)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:96)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:77)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:45)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:175)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.help.base 4 4 2018-07-29 18:34:19.297
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2018-07-29 18:34:19.297
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_codeFormatter.html cannot be opened.
+
+!ENTRY org.eclipse.jface 4 2 2018-07-29 18:37:42.872
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: null argument:
+	at org.eclipse.core.runtime.Assert.isNotNull(Assert.java:85)
+	at org.eclipse.core.runtime.Assert.isNotNull(Assert.java:73)
+	at org.eclipse.jface.viewers.StructuredViewer.assertElementsNotNull(StructuredViewer.java:587)
+	at org.eclipse.jface.viewers.StructuredViewer.getRawChildren(StructuredViewer.java:996)
+	at org.eclipse.jface.viewers.ColumnViewer.getRawChildren(ColumnViewer.java:701)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1340)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:341)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:901)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:618)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$0(AbstractTreeViewer.java:814)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:792)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:595)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:763)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalInitializeTree(AbstractTreeViewer.java:1527)
+	at org.eclipse.jface.viewers.TreeViewer.internalInitializeTree(TreeViewer.java:771)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$1(AbstractTreeViewer.java:1512)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1447)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:354)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1408)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1506)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:286)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1685)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.TrustCertificateDialog$4.selectionChanged(TrustCertificateDialog.java:138)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:155)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:44)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:152)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2180)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1223)
+	at org.eclipse.jface.viewers.CheckboxTableViewer.handleSelect(CheckboxTableViewer.java:304)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1252)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:240)
+	at org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:235)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5348)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1348)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4602)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4183)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.equinox.internal.p2.ui.ValidationDialogServiceUI$3.run(ValidationDialogServiceUI.java:174)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:58)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:168)
+	at org.eclipse.ui.internal.UISynchronizer.lambda$0(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4577)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4186)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2018-07-29 18:38:30.280
+!MESSAGE Manual restore of backup needed for: /tmp/SDKProfile_2c9cdcfa6061_7f000001a695/_/usr/lib/eclipse/.eclipseproduct
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2018-07-29 18:38:30.281
+!MESSAGE 0 items out of 1 items restored.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2018-07-29 18:38:30.281
+!MESSAGE An error occurred while committing the engine session for profile: SDKProfile.
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2018-07-29 18:38:30.281
+!MESSAGE Restore of backup failed - see log for details. Backup directory name: SDKProfile_2c9cdcfa6061_7f000001a695.
+!STACK 0
+java.io.IOException: Errors while restoring - see earlier logged errors
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.BackupStore.close(BackupStore.java:532)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.BackupStore.restore(BackupStore.java:495)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.restore(LazyBackupStore.java:53)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.NativeTouchpoint.rollback(NativeTouchpoint.java:202)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:196)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:86)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:45)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:175)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2018-07-29 18:38:30.282
+!MESSAGE An error occurred while uninstalling
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2018-07-29 18:38:30.283
+!MESSAGE session context was:(profile=SDKProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Uninstall, operand=[R]org.eclipse.platform_root 4.7.2.v20171217-1438 --> null, action=org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction).
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2018-07-29 18:38:30.283
+!MESSAGE Backup of file /usr/lib/eclipse/.eclipseproduct failed.
+!STACK 0
+java.io.IOException: File that was copied to backup could not be deleted: /usr/lib/eclipse/.eclipseproduct
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.BackupStore.moveToBackup(BackupStore.java:282)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.BackupStore.backup(BackupStore.java:248)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.backup(LazyBackupStore.java:36)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.cleanupzip(CleanupzipAction.java:85)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.execute(CleanupzipAction.java:30)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.execute(ParameterizedProvisioningAction.java:39)
+	at org.eclipse.equinox.internal.p2.engine.Phase.mainPerform(Phase.java:184)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:96)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:77)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:45)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:175)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2018-07-29 19:18:11.691
+!MESSAGE Full project indexing required:
+  [+] /home/ricardo/.m2/repository/org/springframework/boot/spring-boot-devtools/2.0.3.RELEASE/spring-boot-devtools-2.0.3.RELEASE.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.suggestRebuild(ProjectTypesIndex.java:444)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.rebuildIndex(TypesIndexService.java:120)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.process(TypesIndexService.java:57)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.process(TypesIndexService.java:63)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.elementChanged(TypesIndexService.java:49)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1720)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1554)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1530)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2246)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2136)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:473)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-07-31 19:48:53.920
+!MESSAGE Exception occurred during problem detection:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.brasajava.reativeone.service.impl;
+
+import java.time.LocalDateTime;
+
+import org.springframework.stereotype.Service;
+
+import com.brasajava.reativeone.domain.entity.Lead;
+import com.brasajava.reativeone.domain.repository.LeadRepository;
+import com.brasajava.reativeone.service.LeadService;
+
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+@Service
+public class LeadServiceImpl implements LeadService{
+
+	private LeadRepository repository;
+
+	public LeadServiceImpl(LeadRepository repository) {
+		this.repository = repository;
+	}
+	@Override
+	public Mono<Lead> create(Lead lead) {
+		return repository.save(onCreate(lead));
+	}
+
+	@Override
+	public Mono<Lead> update(String id, Lead lead) {
+		return repository.findById(id).flatMap(l -> {
+			lead.setCreateDateTime(l.getCreateDateTime());
+			return repository.save();
+			});
+	}
+	@Override
+	public Mono<Lead> updateWithPatch(String id, Object patchObject) {
+		return null;
+	}
+
+	@Override
+	public Flux<Lead> findAllLeads() {
+		return repository.findAll();
+	}
+
+	@Override
+	public Mono<Lead> findLeadById(String id) {
+		return repository.findById(id);
+	}
+
+	@Override
+	public Mono<Void> deleteLeadById(String id) {
+		return repository.findById(id).flatMap(l -> repository.delete(l));
+	}
+
+	private Lead onCreate(Lead lead) {
+		LocalDateTime dateTime = LocalDateTime.now();
+		lead.setCreateDateTime(dateTime);
+		lead.setUpdateDateTime(dateTime);
+		return lead;
+	}
+	
+	private Lead onUpdate(Lead lead) {
+		LocalDateTime dateTime = LocalDateTime.now();
+		lead.setUpdateDateTime(dateTime);
+		return lead;
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.UnsupportedOperationException: no glb for [<T extends java.lang.Object>, (id=224)
+public class com.brasajava.reativeone.domain.entity.Lead
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] <no type> serialVersionUID
+private [unresolved] <no type> id
+private [unresolved] <no type> name
+private [unresolved] <no type> lastname
+private [unresolved] <no type> createDateTime
+private [unresolved] <no type> updateDateTime
+/*   methods   */
+[unresolved] public void <init>() 
+public java.time.LocalDateTime getCreateDateTime() 
+[unresolved] public <no type> getId() 
+[unresolved] public <no type> getLastname() 
+[unresolved] public <no type> getName() 
+[unresolved] public <no type> getUpdateDateTime() 
+public void setCreateDateTime(java.time.LocalDateTime) 
+[unresolved] public <no type> setId() 
+[unresolved] public <no type> setLastname() 
+[unresolved] public <no type> setName() 
+[unresolved] public <no type> setUpdateDateTime() 
+[unresolved] public <no type> toString() 
+/*   members   */
+
+]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:1013)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.inferInvocationType(InferenceContext18.java:466)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:266)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at org.eclipse.jdt.internal.compiler.ast.ReturnStatement.resolve(ReturnStatement.java:342)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1048)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:202)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:195)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1091)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1260)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2018-07-31 19:48:54.076
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 1
+Java Model Exception: java.lang.UnsupportedOperationException: no glb for [<T extends java.lang.Object>, (id=224)
+public class com.brasajava.reativeone.domain.entity.Lead
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] <no type> serialVersionUID
+private [unresolved] <no type> id
+private [unresolved] <no type> name
+private [unresolved] <no type> lastname
+private [unresolved] <no type> createDateTime
+private [unresolved] <no type> updateDateTime
+/*   methods   */
+[unresolved] public void <init>() 
+public java.time.LocalDateTime getCreateDateTime() 
+[unresolved] public <no type> getId() 
+[unresolved] public <no type> getLastname() 
+[unresolved] public <no type> getName() 
+[unresolved] public <no type> getUpdateDateTime() 
+public void setCreateDateTime(java.time.LocalDateTime) 
+[unresolved] public <no type> setId() 
+[unresolved] public <no type> setLastname() 
+[unresolved] public <no type> setName() 
+[unresolved] public <no type> setUpdateDateTime() 
+[unresolved] public <no type> toString() 
+/*   members   */
+
+]
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:254)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:195)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1091)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1260)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+Caused by: java.lang.UnsupportedOperationException: no glb for [<T extends java.lang.Object>, (id=224)
+public class com.brasajava.reativeone.domain.entity.Lead
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] <no type> serialVersionUID
+private [unresolved] <no type> id
+private [unresolved] <no type> name
+private [unresolved] <no type> lastname
+private [unresolved] <no type> createDateTime
+private [unresolved] <no type> updateDateTime
+/*   methods   */
+[unresolved] public void <init>() 
+public java.time.LocalDateTime getCreateDateTime() 
+[unresolved] public <no type> getId() 
+[unresolved] public <no type> getLastname() 
+[unresolved] public <no type> getName() 
+[unresolved] public <no type> getUpdateDateTime() 
+public void setCreateDateTime(java.time.LocalDateTime) 
+[unresolved] public <no type> setId() 
+[unresolved] public <no type> setLastname() 
+[unresolved] public <no type> setName() 
+[unresolved] public <no type> setUpdateDateTime() 
+[unresolved] public <no type> toString() 
+/*   members   */
+
+]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:1013)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.inferInvocationType(InferenceContext18.java:466)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:266)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at org.eclipse.jdt.internal.compiler.ast.ReturnStatement.resolve(ReturnStatement.java:342)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1048)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:202)
+	... 19 more
+Caused by: java.lang.UnsupportedOperationException: no glb for [<T extends java.lang.Object>, (id=224)
+public class com.brasajava.reativeone.domain.entity.Lead
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] <no type> serialVersionUID
+private [unresolved] <no type> id
+private [unresolved] <no type> name
+private [unresolved] <no type> lastname
+private [unresolved] <no type> createDateTime
+private [unresolved] <no type> updateDateTime
+/*   methods   */
+[unresolved] public void <init>() 
+public java.time.LocalDateTime getCreateDateTime() 
+[unresolved] public <no type> getId() 
+[unresolved] public <no type> getLastname() 
+[unresolved] public <no type> getName() 
+[unresolved] public <no type> getUpdateDateTime() 
+public void setCreateDateTime(java.time.LocalDateTime) 
+[unresolved] public <no type> setId() 
+[unresolved] public <no type> setLastname() 
+[unresolved] public <no type> setName() 
+[unresolved] public <no type> setUpdateDateTime() 
+[unresolved] public <no type> toString() 
+/*   members   */
+
+]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:1013)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.inferInvocationType(InferenceContext18.java:466)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:266)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at org.eclipse.jdt.internal.compiler.ast.ReturnStatement.resolve(ReturnStatement.java:342)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1048)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:202)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:195)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1091)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1260)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1005 2018-07-31 19:48:54.114
+!MESSAGE no glb for [<T extends java.lang.Object>, (id=224)
+public class com.brasajava.reativeone.domain.entity.Lead
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] <no type> serialVersionUID
+private [unresolved] <no type> id
+private [unresolved] <no type> name
+private [unresolved] <no type> lastname
+private [unresolved] <no type> createDateTime
+private [unresolved] <no type> updateDateTime
+/*   methods   */
+[unresolved] public void <init>() 
+public java.time.LocalDateTime getCreateDateTime() 
+[unresolved] public <no type> getId() 
+[unresolved] public <no type> getLastname() 
+[unresolved] public <no type> getName() 
+[unresolved] public <no type> getUpdateDateTime() 
+public void setCreateDateTime(java.time.LocalDateTime) 
+[unresolved] public <no type> setId() 
+[unresolved] public <no type> setLastname() 
+[unresolved] public <no type> setName() 
+[unresolved] public <no type> setUpdateDateTime() 
+[unresolved] public <no type> toString() 
+/*   members   */
+
+]
+!STACK 0
+java.lang.UnsupportedOperationException: no glb for [<T extends java.lang.Object>, (id=224)
+public class com.brasajava.reativeone.domain.entity.Lead
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] <no type> serialVersionUID
+private [unresolved] <no type> id
+private [unresolved] <no type> name
+private [unresolved] <no type> lastname
+private [unresolved] <no type> createDateTime
+private [unresolved] <no type> updateDateTime
+/*   methods   */
+[unresolved] public void <init>() 
+public java.time.LocalDateTime getCreateDateTime() 
+[unresolved] public <no type> getId() 
+[unresolved] public <no type> getLastname() 
+[unresolved] public <no type> getName() 
+[unresolved] public <no type> getUpdateDateTime() 
+public void setCreateDateTime(java.time.LocalDateTime) 
+[unresolved] public <no type> setId() 
+[unresolved] public <no type> setLastname() 
+[unresolved] public <no type> setName() 
+[unresolved] public <no type> setUpdateDateTime() 
+[unresolved] public <no type> toString() 
+/*   members   */
+
+]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:1013)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.inferInvocationType(InferenceContext18.java:466)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:266)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at org.eclipse.jdt.internal.compiler.ast.ReturnStatement.resolve(ReturnStatement.java:342)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1048)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:202)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:195)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1091)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1260)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1005 2018-07-31 19:48:54.114
+!MESSAGE no glb for [<T extends java.lang.Object>, (id=224)
+public class com.brasajava.reativeone.domain.entity.Lead
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] <no type> serialVersionUID
+private [unresolved] <no type> id
+private [unresolved] <no type> name
+private [unresolved] <no type> lastname
+private [unresolved] <no type> createDateTime
+private [unresolved] <no type> updateDateTime
+/*   methods   */
+[unresolved] public void <init>() 
+public java.time.LocalDateTime getCreateDateTime() 
+[unresolved] public <no type> getId() 
+[unresolved] public <no type> getLastname() 
+[unresolved] public <no type> getName() 
+[unresolved] public <no type> getUpdateDateTime() 
+public void setCreateDateTime(java.time.LocalDateTime) 
+[unresolved] public <no type> setId() 
+[unresolved] public <no type> setLastname() 
+[unresolved] public <no type> setName() 
+[unresolved] public <no type> setUpdateDateTime() 
+[unresolved] public <no type> toString() 
+/*   members   */
+
+]
+!STACK 0
+java.lang.UnsupportedOperationException: no glb for [<T extends java.lang.Object>, (id=224)
+public class com.brasajava.reativeone.domain.entity.Lead
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] <no type> serialVersionUID
+private [unresolved] <no type> id
+private [unresolved] <no type> name
+private [unresolved] <no type> lastname
+private [unresolved] <no type> createDateTime
+private [unresolved] <no type> updateDateTime
+/*   methods   */
+[unresolved] public void <init>() 
+public java.time.LocalDateTime getCreateDateTime() 
+[unresolved] public <no type> getId() 
+[unresolved] public <no type> getLastname() 
+[unresolved] public <no type> getName() 
+[unresolved] public <no type> getUpdateDateTime() 
+public void setCreateDateTime(java.time.LocalDateTime) 
+[unresolved] public <no type> setId() 
+[unresolved] public <no type> setLastname() 
+[unresolved] public <no type> setName() 
+[unresolved] public <no type> setUpdateDateTime() 
+[unresolved] public <no type> toString() 
+/*   members   */
+
+]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:1013)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.inferInvocationType(InferenceContext18.java:466)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:266)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at org.eclipse.jdt.internal.compiler.ast.ReturnStatement.resolve(ReturnStatement.java:342)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1048)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:202)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:195)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1091)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1260)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2018-07-31 19:48:54.117
+!MESSAGE Error in JDT Core during reconcile
+!STACK 1
+Java Model Exception: java.lang.UnsupportedOperationException: no glb for [<T extends java.lang.Object>, (id=224)
+public class com.brasajava.reativeone.domain.entity.Lead
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] <no type> serialVersionUID
+private [unresolved] <no type> id
+private [unresolved] <no type> name
+private [unresolved] <no type> lastname
+private [unresolved] <no type> createDateTime
+private [unresolved] <no type> updateDateTime
+/*   methods   */
+[unresolved] public void <init>() 
+public java.time.LocalDateTime getCreateDateTime() 
+[unresolved] public <no type> getId() 
+[unresolved] public <no type> getLastname() 
+[unresolved] public <no type> getName() 
+[unresolved] public <no type> getUpdateDateTime() 
+public void setCreateDateTime(java.time.LocalDateTime) 
+[unresolved] public <no type> setId() 
+[unresolved] public <no type> setLastname() 
+[unresolved] public <no type> setName() 
+[unresolved] public <no type> setUpdateDateTime() 
+[unresolved] public <no type> toString() 
+/*   members   */
+
+]
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:254)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:195)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1091)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1260)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+Caused by: java.lang.UnsupportedOperationException: no glb for [<T extends java.lang.Object>, (id=224)
+public class com.brasajava.reativeone.domain.entity.Lead
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] <no type> serialVersionUID
+private [unresolved] <no type> id
+private [unresolved] <no type> name
+private [unresolved] <no type> lastname
+private [unresolved] <no type> createDateTime
+private [unresolved] <no type> updateDateTime
+/*   methods   */
+[unresolved] public void <init>() 
+public java.time.LocalDateTime getCreateDateTime() 
+[unresolved] public <no type> getId() 
+[unresolved] public <no type> getLastname() 
+[unresolved] public <no type> getName() 
+[unresolved] public <no type> getUpdateDateTime() 
+public void setCreateDateTime(java.time.LocalDateTime) 
+[unresolved] public <no type> setId() 
+[unresolved] public <no type> setLastname() 
+[unresolved] public <no type> setName() 
+[unresolved] public <no type> setUpdateDateTime() 
+[unresolved] public <no type> toString() 
+/*   members   */
+
+]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:1013)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.inferInvocationType(InferenceContext18.java:466)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:266)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at org.eclipse.jdt.internal.compiler.ast.ReturnStatement.resolve(ReturnStatement.java:342)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1048)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:202)
+	... 19 more
+Caused by: java.lang.UnsupportedOperationException: no glb for [<T extends java.lang.Object>, (id=224)
+public class com.brasajava.reativeone.domain.entity.Lead
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] <no type> serialVersionUID
+private [unresolved] <no type> id
+private [unresolved] <no type> name
+private [unresolved] <no type> lastname
+private [unresolved] <no type> createDateTime
+private [unresolved] <no type> updateDateTime
+/*   methods   */
+[unresolved] public void <init>() 
+public java.time.LocalDateTime getCreateDateTime() 
+[unresolved] public <no type> getId() 
+[unresolved] public <no type> getLastname() 
+[unresolved] public <no type> getName() 
+[unresolved] public <no type> getUpdateDateTime() 
+public void setCreateDateTime(java.time.LocalDateTime) 
+[unresolved] public <no type> setId() 
+[unresolved] public <no type> setLastname() 
+[unresolved] public <no type> setName() 
+[unresolved] public <no type> setUpdateDateTime() 
+[unresolved] public <no type> toString() 
+/*   members   */
+
+]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:1013)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.inferInvocationType(InferenceContext18.java:466)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:266)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at org.eclipse.jdt.internal.compiler.ast.ReturnStatement.resolve(ReturnStatement.java:342)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1048)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:202)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:195)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1091)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1260)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1005 2018-07-31 19:48:54.117
+!MESSAGE no glb for [<T extends java.lang.Object>, (id=224)
+public class com.brasajava.reativeone.domain.entity.Lead
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] <no type> serialVersionUID
+private [unresolved] <no type> id
+private [unresolved] <no type> name
+private [unresolved] <no type> lastname
+private [unresolved] <no type> createDateTime
+private [unresolved] <no type> updateDateTime
+/*   methods   */
+[unresolved] public void <init>() 
+public java.time.LocalDateTime getCreateDateTime() 
+[unresolved] public <no type> getId() 
+[unresolved] public <no type> getLastname() 
+[unresolved] public <no type> getName() 
+[unresolved] public <no type> getUpdateDateTime() 
+public void setCreateDateTime(java.time.LocalDateTime) 
+[unresolved] public <no type> setId() 
+[unresolved] public <no type> setLastname() 
+[unresolved] public <no type> setName() 
+[unresolved] public <no type> setUpdateDateTime() 
+[unresolved] public <no type> toString() 
+/*   members   */
+
+]
+!STACK 0
+java.lang.UnsupportedOperationException: no glb for [<T extends java.lang.Object>, (id=224)
+public class com.brasajava.reativeone.domain.entity.Lead
+	extends java.lang.Object
+	implements : java.io.Serializable
+/*   fields   */
+private static final [unresolved] <no type> serialVersionUID
+private [unresolved] <no type> id
+private [unresolved] <no type> name
+private [unresolved] <no type> lastname
+private [unresolved] <no type> createDateTime
+private [unresolved] <no type> updateDateTime
+/*   methods   */
+[unresolved] public void <init>() 
+public java.time.LocalDateTime getCreateDateTime() 
+[unresolved] public <no type> getId() 
+[unresolved] public <no type> getLastname() 
+[unresolved] public <no type> getName() 
+[unresolved] public <no type> getUpdateDateTime() 
+public void setCreateDateTime(java.time.LocalDateTime) 
+[unresolved] public <no type> setId() 
+[unresolved] public <no type> setLastname() 
+[unresolved] public <no type> setName() 
+[unresolved] public <no type> setUpdateDateTime() 
+[unresolved] public <no type> toString() 
+/*   members   */
+
+]
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.resolve(InferenceContext18.java:1139)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:994)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.solve(InferenceContext18.java:1013)
+	at org.eclipse.jdt.internal.compiler.lookup.InferenceContext18.inferInvocationType(InferenceContext18.java:466)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod18(ParameterizedGenericMethodBinding.java:266)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedGenericMethodBinding.computeCompatibleMethod(ParameterizedGenericMethodBinding.java:88)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:797)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.computeCompatibleMethod(Scope.java:754)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod0(Scope.java:1699)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findMethod(Scope.java:1600)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getMethod(Scope.java:2883)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.findMethodBinding(MessageSend.java:938)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:759)
+	at org.eclipse.jdt.internal.compiler.ast.ReturnStatement.resolve(ReturnStatement.java:342)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:634)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:307)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:544)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1195)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1308)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:625)
+	at org.eclipse.jdt.internal.compiler.Compiler.resolve(Compiler.java:1048)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:202)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:195)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1091)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:171)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1260)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:128)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:110)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:154)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2018-07-31 22:15:11.424
+!MESSAGE Manual restore of backup needed for: /tmp/SDKProfile_2c9e3f5d37c2_7f000001a0ff/_/usr/lib/eclipse/.eclipseproduct
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2018-07-31 22:15:11.501
+!MESSAGE 0 items out of 1 items restored.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2018-07-31 22:15:11.502
+!MESSAGE An error occurred while committing the engine session for profile: SDKProfile.
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2018-07-31 22:15:11.502
+!MESSAGE Restore of backup failed - see log for details. Backup directory name: SDKProfile_2c9e3f5d37c2_7f000001a0ff.
+!STACK 0
+java.io.IOException: Errors while restoring - see earlier logged errors
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.BackupStore.close(BackupStore.java:532)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.BackupStore.restore(BackupStore.java:495)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.restore(LazyBackupStore.java:53)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.NativeTouchpoint.rollback(NativeTouchpoint.java:202)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:196)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:86)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:45)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:175)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2018-07-31 22:15:11.606
+!MESSAGE An error occurred while uninstalling
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2018-07-31 22:15:11.606
+!MESSAGE session context was:(profile=SDKProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Uninstall, operand=[R]org.eclipse.platform_root 4.7.2.v20171217-1438 --> null, action=org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction).
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2018-07-31 22:15:11.606
+!MESSAGE Backup of file /usr/lib/eclipse/.eclipseproduct failed.
+!STACK 0
+java.io.IOException: File that was copied to backup could not be deleted: /usr/lib/eclipse/.eclipseproduct
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.BackupStore.moveToBackup(BackupStore.java:282)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.BackupStore.backup(BackupStore.java:248)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.backup(LazyBackupStore.java:36)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.cleanupzip(CleanupzipAction.java:85)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.execute(CleanupzipAction.java:30)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.execute(ParameterizedProvisioningAction.java:39)
+	at org.eclipse.equinox.internal.p2.engine.Phase.mainPerform(Phase.java:184)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:96)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:77)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:45)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:175)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-07-31 22:25:49.482
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.util.concurrent.TimeoutException: Timed out waiting for  [STOPPING] to reach a terminal state. Current state: STOPPING
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:65)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:990)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.disposed(InjectorImpl.java:450)
+	at org.eclipse.e4.core.internal.di.Requestor.disposed(Requestor.java:156)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:78)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:111)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.handleInvalid(TrackableComputationExt.java:74)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.dispose(EclipseContext.java:178)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.dispose(EclipseContext.java:163)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.dispose(EclipseContext.java:163)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.dispose(EclipseContext.java:163)
+	at org.eclipse.e4.core.internal.contexts.osgi.EclipseContextOSGi.dispose(EclipseContextOSGi.java:99)
+	at org.eclipse.e4.core.internal.contexts.osgi.EclipseContextOSGi.bundleChanged(EclipseContextOSGi.java:141)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:908)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEventPrivileged(EquinoxEventPublisher.java:213)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:120)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:112)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor.publishModuleEvent(EquinoxContainerAdaptor.java:168)
+	at org.eclipse.osgi.container.Module.publishEvent(Module.java:476)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:634)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:202)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:165)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.TimeoutException: Timed out waiting for  [STOPPING] to reach a terminal state. Current state: STOPPING
+	at com.google.common.util.concurrent.AbstractService.awaitTerminated(AbstractService.java:274)
+	at com.google.common.util.concurrent.AbstractIdleService.awaitTerminated(AbstractIdleService.java:172)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.diStop(ServerConnection.java:392)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	... 25 more

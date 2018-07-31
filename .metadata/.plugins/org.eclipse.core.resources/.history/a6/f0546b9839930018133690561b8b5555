@@ -1,0 +1,5 @@
+package com.brasajava.reativeone.domain.repository;
+
+public interface LeadRepository {
+
+}

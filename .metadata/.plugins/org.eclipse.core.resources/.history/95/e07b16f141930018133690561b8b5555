@@ -1,0 +1,5 @@
+package com.brasajava.reativeone.api.controller;
+
+public class LeadController {
+
+}

@@ -1,0 +1,15 @@
+package com.brasajava.reativeone.api.handler;
+
+import org.springframework.stereotype.Component;
+
+import com.brasajava.reativeone.domain.repository.LeadRepository;
+
+@Component
+public class LeadHandler {
+
+	private LeadRepository repository;
+	
+	public leadHandler(LeadRepository repository) {
+		this.repository = repository;
+	}
+}

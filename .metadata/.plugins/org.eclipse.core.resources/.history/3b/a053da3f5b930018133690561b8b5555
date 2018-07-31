@@ -1,0 +1,51 @@
+package com.brasajava.reativeone.service.impl;
+
+import com.brasajava.reativeone.domain.entity.Lead;
+import com.brasajava.reativeone.domain.repository.LeadRepository;
+import com.brasajava.reativeone.service.LeadService;
+
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+@Service
+public class LeadServiceImpl implements LeadService{
+
+	private LeadRepository repository;
+
+	public LeadServiceImpl(LeadRepository repository) {
+		this.repository = repository;
+	}
+	@Override
+	public Mono<Lead> create(Lead lead) {
+		return repository.save(lead);
+	}
+
+	@Override
+	public Mono<Lead> update(String id, Lead lead) {
+		return repository.findById(id).flatMap(l -> repository.save(l));
+	}
+
+	@Override
+	public Mono<Lead> updateWithPatch(String id, Object patchObject) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Flux<Lead> findAllLeads() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Mono<Lead> findLeadById(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Mono<Void> deleteLeadById(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

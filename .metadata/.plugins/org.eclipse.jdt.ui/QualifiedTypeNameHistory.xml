@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+<fullyQualifiedTypeName name="org.springframework.data.mongodb.repository.ReactiveMongoRepository"/>
+<fullyQualifiedTypeName name="org.springframework.web.reactive.function.server.ServerRequest"/>
+<fullyQualifiedTypeName name="org.springframework.web.reactive.function.server.RouterFunction"/>
+<fullyQualifiedTypeName name="org.springframework.web.reactive.function.server.RouterFunctions"/>
+<fullyQualifiedTypeName name="org.springframework.web.reactive.function.server.RequestPredicates"/>
+<fullyQualifiedTypeName name="com.brasajava.reativeone.service.LeadService"/>
+<fullyQualifiedTypeName name="org.springframework.web.util.UriComponentsBuilder"/>
+<fullyQualifiedTypeName name="org.springframework.http.server.reactive.ServerHttpRequest"/>
+<fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+<fullyQualifiedTypeName name="org.springframework.web.reactive.function.BodyInserters"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+<fullyQualifiedTypeName name="java.util.UUID"/>
+<fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+</qualifiedTypeNameHistroy>
