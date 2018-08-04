@@ -1,0 +1,57 @@
+package com.brasajava.reativeone.service.impl;
+
+import org.springframework.cloud.stream.annotation.EnableBinding;
+import org.springframework.cloud.stream.annotation.Output;
+import org.springframework.cloud.stream.reactive.FluxSender;
+import org.springframework.cloud.stream.reactive.StreamEmitter;
+import org.springframework.messaging.Message;
+import org.springframework.messaging.MessageHandler;
+import org.springframework.messaging.MessageHeaders;
+import org.springframework.messaging.support.MessageBuilder;
+
+import com.brasajava.reativeone.channel.LeadSenderChannelBinding;
+import com.brasajava.reativeone.domain.entity.Event;
+import com.brasajava.reativeone.service.LeadEventSender;
+
+@EnableBinding(LeadSenderChannelBinding.class)
+public class LeadEventSenderImpl implements LeadEventSender {
+	private FluxSender createdFluxSender;
+	private FluxSender updatedFluxSender;
+	private FluxSender deletedFluxSender;
+
+	@StreamEmitter
+	public void setCreatedFluxSender(@Output(LeadSenderChannelBinding.CREATED_CHANNEL) FluxSender createdFluxSender) {
+		this.createdFluxSender = createdFluxSender;
+	}
+
+	public void setUpdatedFluxSender(@Output(LeadSenderChannelBinding.UPDATED_CHANNEL) FluxSender updatedFluxSender) {
+		this.updatedFluxSender = updatedFluxSender;
+	}
+
+	public void setDeletedFluxSender(@Output(LeadSenderChannelBinding.DELETED_CHANNEL) FluxSender deletedFluxSender) {
+		this.deletedFluxSender = deletedFluxSender;
+	}
+
+	@Override
+	public void sendLeadCreatedEvent(Event event) {
+		Messa
+
+	}
+
+	@Override
+	public void sendLeadUpdatedEvent(Event event) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void sendLeadDeletedEvent(Event event) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	private Message<Event> createMessage(Event payload){
+		return MessageBuilder.withPayload(payload).build();
+	}
+
+}

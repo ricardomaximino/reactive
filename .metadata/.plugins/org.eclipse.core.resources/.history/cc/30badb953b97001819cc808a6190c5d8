@@ -1,0 +1,18 @@
+package com.brasajava.reativeone.channel;
+
+import org.springframework.cloud.stream.annotation.Output;
+import org.springframework.messaging.MessageChannel;
+
+public class LeadReceiverChannelBinding {
+	static final String CREATED_CHANNEL = "lead-receiver-created";
+	static final String UPDATED_CHANNEL = "lead-receiver-updated";
+	static final String DELETED_CHANNEL = "lead-receiver-deleted";
+	
+	@Output(CREATED_CHANNEL)
+	MessageChannel listenCreatedEvent();
+	@Output(UPDATED_CHANNEL)
+	MessageChannel listenUpdatedEvent();
+	@Output(DELETED_CHANNEL)
+	MessageChannel listenDeletedEvent();
+
+}

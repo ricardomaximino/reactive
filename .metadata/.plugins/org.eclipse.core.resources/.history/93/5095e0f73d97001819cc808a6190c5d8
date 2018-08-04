@@ -1,0 +1,47 @@
+package com.brasajava.reativeone.listener;
+
+import org.springframework.cloud.stream.annotation.EnableBinding;
+import org.springframework.messaging.Message;
+
+import com.brasajava.reativeone.channel.LeadReceiverChannelBinding;
+import com.brasajava.reativeone.domain.entity.Event;
+import com.esotericsoftware.minlog.Log;
+
+import lombok.extern.slf4j.Slf4j;
+import reactor.core.publisher.Flux;
+
+@Slf4j
+@EnableBinding(LeadReceiverChannelBinding.class)
+public class LeadQueueListener {
+
+	public void receiveCreatedEvent(Flux<Message<Event>> fluxMessage) {
+		Log.debug("LEADQUEUELISTENER => LISTEN TO LEAD CREATED EVENT QUEUE");
+		fluxMessage.map(message -> {
+			Log.debug("LEADQUEUELISTENER => RECEIVED CREATED EVENT MESSAGE FROM THE QUEUE --> " + message);
+			return message;
+		}).doOnError(error -> {
+			Log.error("LEADQUEUELISTENER => RECEIVED AN ERROR FROM THE QUEUE OF CREATED EVENT --> " + error);
+		}).subscribe();
+	}
+
+	public void receiveUpdatedEvent(Flux<Message<Event>> fluxMessage) {
+		Log.debug("LEADQUEUELISTENER => LISTEN TO LEAD UPDATED EVENT QUEUE");
+		fluxMessage.map(message -> {
+			Log.debug("LEADQUEUELISTENER => RECEIVED UPDATED EVENT MESSAGE FROM THE QUEUE --> " + message);
+			return message;
+		}).doOnError(error -> {
+			Log.error("LEADQUEUELISTENER => RECEIVED AN ERROR FROM THE QUEUE OF UPDATED EVENT --> " + error);
+		}).subscribe();
+	}
+
+	public void receiveDeletedEvent(Flux<Message<Event>> fluxMessage) {
+		Log.debug("LEADQUEUELISTENER => LISTEN TO LEAD DELETED EVENT QUEUE");
+		fluxMessage.map(message -> {
+			Log.debug("LEADQUEUELISTENER => RECEIVED DELETED EVENT MESSAGE FROM THE QUEUE --> " + message);
+			return message;
+		}).doOnError(error -> {
+			Log.error("LEADQUEUELISTENER => RECEIVED AN ERROR FROM THE QUEUE OF DELETED EVENT --> " + error);
+		}).subscribe();
+	}
+
+}

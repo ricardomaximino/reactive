@@ -1,0 +1,5 @@
+package com.brasajava.reativeone.common.util;
+
+public class LeadEventBuilder {
+
+}

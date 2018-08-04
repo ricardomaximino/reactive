@@ -1,0 +1,5 @@
+package com.brasajava.reativeone.listener;
+
+public class LeadDomainEventsListener {
+
+}

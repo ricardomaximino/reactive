@@ -3,12 +3,16 @@ package com.brasajava.reativeone.domain.entity;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.domain.AbstractAggregateRoot;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.messaging.support.MessageBuilder;
 
 @Document
-public class Lead implements Serializable{
-
+public class Lead extends AbstractAggregateRoot<Lead> implements Serializable{
+	private static Logger Log = LoggerFactory.getLogger(Lead.class);
 	private static final long serialVersionUID = -7609437790563785736L;
 	@Id
 	private String id;
@@ -45,6 +49,15 @@ public class Lead implements Serializable{
 	}
 	public void setUpdateDateTime(LocalDateTime updateDateTime) {
 		this.updateDateTime = updateDateTime;
+	}
+	public Lead create(Event event) {
+		this.registerEvent(MessageBuilder.withPayload(event).setHeader(Event.HEADER_TYPE, Event.CREATE_OPERATION).build());
+		return this;
+	}
+	
+	public Lead updatd(Event event) {
+		this.registerEvent(MessageBuilder.withPayload(event).setHeader(Event.HEADER_TYPE, Event.UPDATE_OPERATION).build());
+		return this;
 	}
 	@Override
 	public String toString() {

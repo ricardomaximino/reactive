@@ -1,0 +1,10 @@
+package com.brasajava.reativeone.common.util;
+
+import com.brasajava.reativeone.domain.entity.Event;
+
+public class LeadEventBuilder {
+
+	public Event leadCreated(String id, String type, String operator) {
+		return new Event(id, type, operator);
+	}
+}

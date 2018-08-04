@@ -1,0 +1,15 @@
+spring:
+  main:
+    web-application-type: reactive
+    
+  cloud:
+    stream:
+      bindings:
+      
+      # Sender
+        lead-created-sender:
+          destination: lead-created
+        lead-updated-sender:
+          destination: lead-updated
+        lead-deleted-sender:
+          destination: lead-deleted          

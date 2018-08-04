@@ -1,0 +1,16 @@
+package com.brasajava.reativeone.common.util;
+
+import java.time.LocalDateTime;
+
+import com.brasajava.reativeone.domain.entity.Event;
+
+public class LeadEventBuilder {
+
+	public Event leadCreated(String id, String type, String operator) {
+		return new Event(id, type, operator);
+	}
+	
+	public Event leadCreated(String id, String type, String operator, LocalDateTime dateTime) {
+		return new Event(id, type, operator, dateTime);
+	}
+}

@@ -2,7 +2,6 @@ package com.brasajava.reativeone.api.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.http.server.reactive.ServerHttpRequest;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
@@ -11,6 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.brasajava.reativeone.domain.entity.Lead;
@@ -48,26 +48,26 @@ public class LeadController {
 
 	@PostMapping
 	public Mono<ResponseEntity<Lead>> createLead(@RequestBody Lead lead) {
-		return service.create(lead).map(l -> {
+		return service.create(lead,"1").map(l -> {
 			return ResponseEntity.status(HttpStatus.CREATED).body(l);
 		});
 	}
 
 	@PutMapping("/{id}")
 	public Mono<ResponseEntity<Object>> updateLead(@PathVariable String id, @RequestBody Lead lead) {
-		return service.update(id, lead).map(l -> ResponseEntity.noContent().build())
+		return service.update(id, lead,"1").map(l -> ResponseEntity.noContent().build())
 				.defaultIfEmpty(ResponseEntity.notFound().build());
 	}
 
 	@PatchMapping("/{id}")
 	public Mono<ResponseEntity<Object>> updateWithPatchLead(@PathVariable String id, @RequestBody Object patchObject) {
-		return service.updateWithPatch(id, patchObject).map(l -> ResponseEntity.noContent().build())
+		return service.updateWithPatch(id, patchObject,"1").map(l -> ResponseEntity.noContent().build())
 				.defaultIfEmpty(ResponseEntity.notFound().build());
 	}
 
 	@DeleteMapping("/{id}")
-	public Mono<ResponseEntity<Object>> deleteLeadById(@PathVariable String id) {
-		return service.deleteLeadById(id).map(d -> ResponseEntity.noContent().build())
-				.defaultIfEmpty(ResponseEntity.notFound().build());
+	@ResponseStatus(value= HttpStatus.NO_CONTENT)
+	public Mono<Void> deleteLeadById(@PathVariable String id) {
+		return service.deleteLeadById(id);
 	}
 }

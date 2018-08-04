@@ -1,0 +1,5 @@
+package com.brasajava.reativeone.channel;
+
+public class LeadSenderChannelBinding {
+
+}

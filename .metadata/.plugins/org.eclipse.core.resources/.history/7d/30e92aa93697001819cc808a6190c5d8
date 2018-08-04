@@ -1,0 +1,5 @@
+package com.brasajava.reativeone.service;
+
+public class LeadEventSender {
+
+}

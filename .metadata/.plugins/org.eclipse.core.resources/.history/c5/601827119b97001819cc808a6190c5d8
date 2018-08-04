@@ -1,0 +1,70 @@
+package com.brasajava.reativeone.domain.entity;
+
+import java.io.Serializable;
+import java.time.LocalDateTime;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.domain.AbstractAggregateRoot;
+import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.messaging.support.MessageBuilder;
+
+import com.brasajava.reativeone.listener.LeadQueueListener;
+
+@Document
+public class Lead extends AbstractAggregateRoot<Lead> implements Serializable{
+	private static Logger Log = LoggerFactory.getLogger(LeadQueueListener.class);
+	private static final long serialVersionUID = -7609437790563785736L;
+	@Id
+	private String id;
+	private String name;
+	private String lastname;
+	private LocalDateTime createDateTime;
+	private LocalDateTime updateDateTime;
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getLastname() {
+		return lastname;
+	}
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
+	public LocalDateTime getCreateDateTime() {
+		return createDateTime;
+	}
+	public void setCreateDateTime(LocalDateTime createDateTime) {
+		this.createDateTime = createDateTime;
+	}
+	public LocalDateTime getUpdateDateTime() {
+		return updateDateTime;
+	}
+	public void setUpdateDateTime(LocalDateTime updateDateTime) {
+		this.updateDateTime = updateDateTime;
+	}
+	public Lead create(Event event) {
+		this.registerEvent(MessageBuilder.withPayload(event).setHeader(Event.HEADER_TYPE, Event.CREATE_OPERATION).build());
+		return this;
+	}
+	
+	public Lead updatd(Event event) {
+		this.registerEvent(MessageBuilder.withPayload(event).setHeader(Event.HEADER_TYPE, Event.UPDATE_OPERATION).build());
+		return this;
+	}
+	@Override
+	public String toString() {
+		return "Lead [id=" + id + ", name=" + name + ", lastname=" + lastname + ", createDateTime=" + createDateTime
+				+ ", updateDateTime=" + updateDateTime + "]";
+	}
+	
+}
