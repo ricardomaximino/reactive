@@ -2,17 +2,21 @@ package com.brasajava.reativeone.listener;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.Input;
 import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.messaging.Message;
+import org.springframework.stereotype.Component;
 
 import com.brasajava.reativeone.channel.LeadReceiverChannelBinding;
 import com.brasajava.reativeone.domain.entity.Event;
 
 import reactor.core.publisher.Flux;
 
-@EnableBinding(LeadReceiverChannelBinding.class)
+//@EnableBinding(LeadReceiverChannelBinding.class)
+//@EnableAutoConfiguration
+@Component
 public class LeadQueueListener {
 
 	private static Logger Log = LoggerFactory.getLogger(LeadQueueListener.class); 

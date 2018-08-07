@@ -2,21 +2,22 @@ package com.brasajava.reativeone.service.impl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.Output;
 import org.springframework.cloud.stream.reactive.FluxSender;
 import org.springframework.cloud.stream.reactive.StreamEmitter;
 import org.springframework.messaging.Message;
 import org.springframework.messaging.support.MessageBuilder;
+import org.springframework.stereotype.Component;
 
 import com.brasajava.reativeone.channel.LeadSenderChannelBinding;
 import com.brasajava.reativeone.domain.entity.Event;
-import com.brasajava.reativeone.listener.LeadQueueListener;
 import com.brasajava.reativeone.service.LeadEventSender;
 
 import reactor.core.publisher.Flux;
 
-@EnableBinding(LeadSenderChannelBinding.class)
+//@EnableAutoConfiguration
+//@EnableBinding(LeadSenderChannelBinding.class)
+@Component
 public class LeadEventSenderImpl implements LeadEventSender {
 	private static Logger Log = LoggerFactory.getLogger(LeadEventSenderImpl.class);
 	private FluxSender createdFluxSender;
